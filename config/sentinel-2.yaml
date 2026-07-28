@@ -1,0 +1,54 @@
+sat_name: Sentinel-2
+bands:
+  - b01:
+    - des: aerosol    # description of spectral band
+    - res: 60         # resolution in m/px
+    - cen_wave: 443   # central wavelength in nm
+  - b02:
+    - des: blue
+    - res: 10
+    - cen_wave: 490
+  - b03:
+    - des: green
+    - res: 10
+    - cen_wave: 560
+  - b04:
+    - des: red
+    - res: 10
+    - cen_wave: 665
+  - b05:
+    - des: red edge
+    - res: 20
+    - cen_wave: 705   
+  - b06: 
+    - des: vegetation classification
+    - res: 20
+    - cen_wave: 740   
+  - b07: 
+    - des: vegetation classification
+    - res: 20
+    - cen_wave: 783
+  - b08: 
+    - des: NIR
+    - res: 10
+    - cen_wave: 842   
+  - b8a: 
+    - des: vegetation classification
+    - res: 20
+    - cen_wave: 865   
+  - b09: 
+    - des: water vapour
+    - res: 60
+    - cen_wave: 945   
+  - b10: 
+    - des: cirrus cloud
+    - res: 60
+    - cen_wave: 1375   
+  - b11: 
+    - des: SWIR1
+    - res: 20
+    - cen_wave: 1610   
+  - b12: 
+    - des: SWIR2
+    - res: 20
+    - cen_wave: 2190
