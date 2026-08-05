@@ -1,0 +1,6 @@
+cloud: 1
+water: 2
+road: 3
+forested: 4
+building: 5
+farmland: 6
